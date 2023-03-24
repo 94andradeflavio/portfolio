@@ -167,7 +167,7 @@ export const ProjetoContainer = styled.div<ProjetoProps>`
 
         > button {
             position: absolute;
-            top: 1rem;
+            /* top: 1rem; */
             right: 1rem;
             margin: 0;
         }
@@ -187,7 +187,7 @@ export const ProjetoContainer = styled.div<ProjetoProps>`
 
             > button {
                 position: absolute;
-                top: 1rem;
+                /* top: 1rem; */
                 right: 1rem;
                 margin: 0;
             }
