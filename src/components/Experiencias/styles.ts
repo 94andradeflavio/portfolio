@@ -28,7 +28,7 @@ export const ItemContainer = styled.div`
         background: ${({ theme }) => theme.gradient};
         padding: 1rem;
         padding-top: 2.5rem;
-        height: 20rem;
+        min-height: 20rem;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -48,6 +48,10 @@ export const ItemContainer = styled.div`
             color: ${({ theme }) => theme.secondary};
             font-size: 1.5rem;
             font-weight: 300;
+        }
+
+        small {
+            color: ${({ theme }) => theme.primary};
             margin-bottom: 1rem;
         }
 
@@ -69,7 +73,7 @@ export const ItemContainer = styled.div`
 
     @media(max-width: 1000px) {
         > div {
-            height: 15rem;
+            min-height: 15rem;
             padding-top: 1.5rem;
             h1 {
                 font-size: 1.2rem;
@@ -78,6 +82,10 @@ export const ItemContainer = styled.div`
     
             h2 {
                 font-size: 1rem;
+            }
+
+            small {
+                font-size: .7rem;
             }
     
             p {
@@ -106,6 +114,10 @@ export const ItemContainer = styled.div`
 
             h2 {
                 font-size: 1.5rem;
+            }
+
+            small {
+                font-size: 1rem;
             }
 
             p {
